@@ -13,7 +13,7 @@ const Hero = () => {
                 strings={["BTC", "BTC", "SASS"]} typeSpeed={120} backSpeed={140} loop/>
                  </div>
              <p className="text-xl font-bold text-gray-500 md:2xl ">Monitor your data analytics to increase revenue for BTB, BTC, & SASS platform</p>
-             <button className="bg-[#00df9a] w-[20git 0px] rounded-md font-medium my-6 mx-auto p-3 ">Get Started</button>
+             <button className="bg-[#00df9a] w-[200px] rounded-md font-medium my-6 mx-auto p-3 ">Get Started</button>
 
            </div>
 
