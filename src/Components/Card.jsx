@@ -21,7 +21,7 @@ const Card = () => {
          </div>
  
 
-  <div className='w-full bg-gray-200 flex flex-col shadow-xl py-4 md:my-0 my-0 text-center rounded-lg hover:scale-105 duration-300 '>
+  <div className='w-full bg-gray-100 flex flex-col shadow-xl py-4 md:my-0 my-0 text-center rounded-lg hover:scale-105 duration-300 '>
         <img src={double} alt="double image" className='w-20 -mt-12 mx-auto bg-white' />
           <h2 className='text-2xl font-bold text-center py-8'> Double User</h2>
           <p className='text-4xl font-bold'>$140</p>
