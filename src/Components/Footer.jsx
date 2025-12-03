@@ -20,7 +20,15 @@ const Footer = () => {
          </div>
         </div>
         
-        
+        <div className='lg:col-span-3 gap-3 flex '>
+           <a href="#home">Home</a>
+           <a href="#company">Company</a>
+           <a href="#resources">Resources</a>
+           <a href="#about"> About</a>
+           <a href="#contact"> Contact</a>
+        </div>
+
+
         Footer </div>
   )
 }
