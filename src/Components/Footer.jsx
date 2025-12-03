@@ -31,6 +31,17 @@ const Footer = () => {
           </ul>
           </div>
        
+            <div>
+      <h6 className='font-medium text-gray-400'>Company</h6>
+          <ul>
+            <li className='text-sm py-2'>About</li>
+           <li className='text-sm py-2'>Blogs</li>
+           <li className='text-sm py-2'>Jobs</li>
+           <li className='text-sm py-2'>Press</li>
+            <li className='text-sm py-2'>Carrers</li>
+
+          </ul>
+          </div>
           
         </div>
 
