@@ -1,5 +1,5 @@
 import React from 'react'
-import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa'
+import { FaDribbbleSquare, FaFacebookSquare, FaGithubSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa'
 import { FaLinkedin, FaTelegram } from 'react-icons/fa6'
 
 const Footer = () => {
@@ -11,14 +11,13 @@ const Footer = () => {
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
         necessitatibus id ad fugiat voluptate laudantium. Voluptate temporibus, cupiditate delectus quae minus aspernatur a liquid
         libero obcaecati error minima reiciendis tenetur porro?</p>
-          <div>
-          <FaFacebookSquare/>
-          <FaInstagramSquare/>
-          <FaTwitterSquare/>
-          <FaTelegram/>
-          <FaLinkedin/>
+          <div className='flex justify-between md:w-[75%] my-6 '>
+          <FaFacebookSquare  size={30}/>
+          <FaInstagramSquare size={30}/>
+          <FaDribbbleSquare size={30}/>
+          <FaGithubSquare size={30}/>
+          <FaLinkedin size={30}/>
          </div>
-
         </div>
         
         
