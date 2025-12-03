@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaFacebookSquare } from 'react-icons/fa'
+import { FaFacebookSquare, FaInstagramSquare, FaTwitterSquare } from 'react-icons/fa'
+import { FaLinkedin, FaTelegram } from 'react-icons/fa6'
 
 const Footer = () => {
   return (
@@ -10,9 +11,13 @@ const Footer = () => {
        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aperiam
         necessitatibus id ad fugiat voluptate laudantium. Voluptate temporibus, cupiditate delectus quae minus aspernatur a liquid
         libero obcaecati error minima reiciendis tenetur porro?</p>
-<div>
-  <FaFacebookSquare/>
-</div>
+          <div>
+          <FaFacebookSquare/>
+          <FaInstagramSquare/>
+          <FaTwitterSquare/>
+          <FaTelegram/>
+          <FaLinkedin/>
+         </div>
 
         </div>
         
