@@ -36,7 +36,7 @@ const Card = () => {
 
    <div className='w-full bg-gray-100 flex flex-col shadow-xl py-4 my-4 text-center rounded-md hover:scale-105 duration-300 '>
         <img src={triple} alt="single image" className='w-20 -mt-12 mx-auto bg-white' />
-          <h2 className='text-2xl font-bold text-center py-8'> Triple User</h2>
+          <h2 className='text-2xl font-bold text-center py-8'> Triple User</h2>                                                                                                                                                                                                          
           <p className='text-4xl font-bold'>$140</p>
           <div className='font-medium'>
           <p className='py-2 border-b mx-8 mt-8'>500 GB Storage</p>
