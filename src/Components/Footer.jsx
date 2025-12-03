@@ -20,12 +20,17 @@ const Footer = () => {
          </div>
         </div>
         
-        <div className='lg:col-span-3 gap-3 flex '>
-           <a href="#home">Home</a>
-           <a href="#company">Company</a>
-           <a href="#resources">Resources</a>
-           <a href="#about"> About</a>
-           <a href="#contact"> Contact</a>
+        <div className='lg:col-span-3  flex '>
+          <h6 className='font-medium text-gray-400 '>Solution</h6>
+          <ul>
+            <li>Analytics</li>
+           <li>Marketing</li>
+           <li>Commerce</li>
+           <li> Insights</li>
+           
+
+          </ul>
+          
         </div>
 
 
