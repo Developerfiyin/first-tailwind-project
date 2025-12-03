@@ -20,16 +20,17 @@ const Footer = () => {
          </div>
         </div>
         
-        <div className='lg:col-span-3  flex '>
-          <h6 className='font-medium text-gray-400 '>Solution</h6>
+        <div className='lg:col-span-3 justify-between flex '>
+          <div>
+      <h6 className='font-medium text-gray-400 '>Solution</h6>
           <ul>
-            <li>Analytics</li>
-           <li>Marketing</li>
-           <li>Commerce</li>
-           <li> Insights</li>
-           
-
+            <li className='text-sm py-2'>Analytics</li>
+           <li className='text-sm py-2'>Marketing</li>
+           <li className='text-sm py-2'>Commerce</li>
+           <li className='text-sm py-2'>Insights</li>
           </ul>
+          </div>
+       
           
         </div>
 
