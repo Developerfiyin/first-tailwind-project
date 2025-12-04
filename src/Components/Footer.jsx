@@ -20,7 +20,7 @@ const Footer = () => {
          </div>
         </div>
         
-        <div className='lg:col-span-3 justify-between flex '>
+        <div className='lg:col-span-2 justify-between flex mt-6'>
           <div>
       <h6 className='font-medium text-gray-400 '>Solution</h6>
           <ul>
@@ -32,7 +32,7 @@ const Footer = () => {
           </div>
        
           <div>
-      <h6 className='font-medium text-gray-400'>Support</h6>
+          <h6 className='font-medium text-gray-400'>Support</h6>
           <ul>
             <li className='text-sm py-2'>Pricing</li>
            <li className='text-sm py-2'>Documentation</li>
@@ -52,8 +52,8 @@ const Footer = () => {
           </ul>
           </div>
           
-                <div>
-      <h6 className='font-medium text-gray-400'>Legal</h6>
+           <div>
+          <h6 className='font-medium text-gray-400'>Legal</h6>
           <ul>
             <li className='text-sm py-2'>Claim</li>
            <li className='text-sm py-2'>Policy</li>
