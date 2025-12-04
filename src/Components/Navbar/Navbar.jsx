@@ -18,7 +18,7 @@ const Navbar = () => {
             <li className='p-4'>Resources </li>
             <li className='p-4'> About</li>
             <li className='p-4'>Contact </li>
-           </ul>
+           </ul> 
          <div onClick={handleClick} className='block md:hidden' > 
                  {nav ? <AiOutlineMenu size={25}/> : <AiOutlineClose size={25}/> }</div>
 
@@ -30,9 +30,7 @@ const Navbar = () => {
                           <li className='p-4 border-b border-grey-700'> About</li>
                           <li className='p-4 border-b border-grey-700'>Contact </li>
                        </ul>
-           </div>
-
-    
+           </div>    
     </>
   )
 }
